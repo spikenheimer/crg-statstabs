@@ -1,0 +1,13 @@
+body { 
+	margin: 0px; 
+
+	} 
+#indexLink { position: absolute; top: 2px; right: 2px; } 
+#tabsDiv>div.TabContent { padding: 2px; overflow: hidden; } 
+#tabsDiv>div.TabContent>table { width: 100%; border-spacing: 0px; } 
+#tabsDiv>div.TabContent>div.Loading { text-align: center; font-weight: bold; font-size: 300%; } 
+#dmTabBar { background: #660000; } 
+table.RowTable { border-spacing: 0px; } 
+#pttab .Sheet { float:left; width: 50%; }
+#scorestab .Sheet { float:left; width: 50%; }
+
