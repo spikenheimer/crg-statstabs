@@ -5,12 +5,14 @@ $(function () {
 
 
 	var scorestab = createTab('scores', 'scorestab');
+	document.getElementById('scorestab').style.pointerEvents = 'none';
 	var sk1 = $('<div>').addClass('T1 SKS Sheet ').appendTo(scorestab);
 	var sk2 = $('<div>').addClass('T2 SKS Sheet ').appendTo(scorestab);
 	prepareSkSheetTable(sk1, gameId, '1', 'edit');
 	prepareSkSheetTable(sk2, gameId, '2', 'edit');
 
 	var pttab = createTab('penalties', 'pttab');
+	document.getElementById('pttab').style.pointerEvents = 'none';
 
 	var pt1 = $('<div>').addClass('T1 pt Sheet ').appendTo(pttab);
 	var pt2 = $('<div>').addClass('T2 pt Sheet ').appendTo(pttab);
